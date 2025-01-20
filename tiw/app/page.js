@@ -10,8 +10,8 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen bg-zinc-900 text-white">
-        <section className="pt-[10rem] pb-20 flex justify-center items-center flex-col gap-3 px-4">
+      <main className="min-h-screen bg-zinc-950 text-white">
+        <section className="pt-[15rem] pb-[15rem] flex justify-center items-center flex-col gap-3 px-4">
           <TypeAnimation
             sequence={[
               "Tasks to take CONTROL of your life",
@@ -25,59 +25,57 @@ const Home = () => {
             ]}
             wrapper="h1"
             speed={50}
-            className="lg:text-6xl md:text-5xl text-4xl text-center font-bold mb-6"
+            className="lg:text-7xl md:text-5xl text-4xl text-center font-bold mb-6"
             repeat={Infinity}
             cursor={true}
           />
 
           <p className="max-w-2xl text-zinc-400 text-center text-lg mb-10">
-            Your personalized gateway to digital task management, effortlessly
-            providing the simplicity of a to-do list with the power of advanced
-            productivity tools.
+            YOUR NO NONSENSE TASK MANAGMENT APP FOCUSED ON TODAY AND TOMORROW 
           </p>
           <Link
-            href="#"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition-colors text-lg"
+            href="/about"
+            className="bg-white transition-transform hover:scale-105  text-black font-bold py-2 px-5  transition-colors text-lg"
           >
-            Get Started
+            Learn About Us
           </Link>
         </section>
 
         <section className="py-20 bg-gray-100">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-10 text-center text-black">
-              Key Features
+              KEY FEATURES
             </h2>
             <div className="flex gap-8 overflow-x-auto pb-8 justify-center flex-wrap">
               <KeypointItem
-                title="Intuitive Interface 🖥️"
-                text="User-friendly design for effortless task management and organization."
+                title="No Nonsense"
+                text="No nonesense design that focuses on what truly matters."
               />
               <KeypointItem
-                title="Smart Prioritization 🎯"
-                text="AI-powered task prioritization to help you focus on what matters most."
+                title="TODAY AND TOMORROW."
+                text="Crafted to keep your mind focused on what matters TODAY and TOMORROW."
               />
               <KeypointItem
-                title="Seamless Sync ☁️"
+                title="CROSS PLATFORM."
                 text="Access your tasks from any device with real-time cloud synchronization."
               />
               <KeypointItem
-                title="Customizable Workflows 🔧"
-                text="Create personalized workflows that adapt to your unique productivity style."
+                title="AI INTEGRATION."
+                text="AI-powered to deligate and supercharge your productivity."
               />
               <KeypointItem
-                title="Customizable Workflows 🔧"
-                text="Create personalized workflows that adapt to your unique productivity style."
+                title="SIMPLICITY IS KEY"
+                text="Designed to give you the power to shape your day with our help"
               />
               <KeypointItem
-                title="Customizable Workflows 🔧"
-                text="Create personalized workflows that adapt to your unique productivity style."
+                title="EASY AS 1,2,3"
+                text="Task Now has no learning curve, just start using it now."
               />
             </div>
           </div>
         </section>
 
-        <section className="py-20 w-[80vw] mx-auto">
+        {/* <section className="py-20 w-[80vw] mx-auto">
           <div className="container mx-auto px-4 ">
             <h2 className="text-3xl font-bold mb-10 text-center">
               About Tasks Now
@@ -103,6 +101,9 @@ const Home = () => {
               </p>
             </div>
           </div>
+        </section> */}
+        <section>
+          
         </section>
       </main>
       <Footer />
